@@ -1,1 +1,1 @@
-web: gunicorn letmesleep.wsgi
+web: gunicorn letmesleep.wsgi --log-file -
