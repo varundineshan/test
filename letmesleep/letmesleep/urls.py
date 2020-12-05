@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path,include
 
 urlpatterns = [
+    #this is another change
     path('admin/', admin.site.urls),
     path('', include('my_application.urls')),
         path('varun/', include('my_application.urls')),
